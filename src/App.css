@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+
+:root {
+  --primary-color: #1db954;
+  --heading-color: #000000;
+  --para-color: #000000;
+  --text-color: #333333;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nunito", sans-serif;
+}
+
+.musicwrap {
+  margin: 0 10px;
+}
+
+.equalizer canvas {
+  display: block;
+}
+
+.controls img {
+  cursor: pointer;
+  width: 20px;
+}
+
+.track-name {
+  margin-right: 10px;
+  font-size: 14px;
+  color: #fff;
+}
